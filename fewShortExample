@@ -33,8 +33,16 @@ def sumN2(num):
 
     print num*(num+1)*(2*num+1)/6
 
+import math
+#Summation of first square of N numbers
+def sumN3(num):
+    print "---{}--{}--------".format(__name__, num)
+
+    print math.pow((num * (num + 1) / 2),2)
+
 if __name__ == '__main__' :
     factorial(6)
     fibonacci(5)
     sumN(10)
     sumN2(3)
+    sumN3(2)
