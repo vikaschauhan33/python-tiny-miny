@@ -21,6 +21,20 @@ def factorial(num):
 
     print a
 
+#Summation of first N numbers
+def sumN(num):
+    print "---{}--{}--------".format(__name__, num)
+
+    print num*(num+1)/2
+
+#Summation of first square of N numbers
+def sumN2(num):
+    print "---{}--{}--------".format(__name__, num)
+
+    print num*(num+1)*(2*num+1)/6
+
 if __name__ == '__main__' :
     factorial(6)
     fibonacci(5)
+    sumN(10)
+    sumN2(3)
